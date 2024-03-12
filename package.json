@@ -1,0 +1,35 @@
+{
+  "name": "blockchain-cli",
+  "version": "1.0.5",
+  "description": "A minimal blockchain command-line interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "NODE_ENV=test ava --verbose"
+  },
+  "bin": {
+    "blockchain": "./main.js"
+  },
+  "keywords": [],
+  "author": "Sean Han",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xs34n/blockchain-cli"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "cli-spinners": "^1.0.0",
+    "cli-table2": "^0.2.0",
+    "colors": "^1.1.2",
+    "crypto-js": "^3.1.9-1",
+    "peer-exchange": "^2.2.0",
+    "vorpal": "^1.12.0",
+    "vorpal-log": "^1.1.0",
+    "wrtc": "0.0.62"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "sinon": "^2.3.8"
+  }
+}
